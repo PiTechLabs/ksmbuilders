@@ -15,7 +15,9 @@ export default function Categories() {
             </div>
             <div className='mt-4'>
                 <div className="mt-1 flex rounded-md shadow-sm">
+
                     <div className="relative flex flex-grow items-stretch focus-within:z-10">
+
                         <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
                             <UsersIcon className="h-5 w-5 text-gray-400" aria-hidden="true" />
                         </div>
@@ -32,11 +34,24 @@ export default function Categories() {
                         className="relative -ml-px inline-flex items-center space-x-2 rounded-r-md border border-themeBlue bg-themeBlue  px-4 py-2 text-sm font-medium text-white hover:scale-110 focus:border-indigo-500 focus:outline-none focus:ring-1 focus:ring-indigo-500 "
                     >
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-white">
-  <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v6m3-3H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
-</svg>
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v6m3-3H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
 
                         <span>Add Category</span>
                     </button>
+
+                </div>
+                <div className="flex h-5 items-center my-2">
+                    <input
+                        id="comments"
+                        aria-describedby="comments-description"
+                        name="comments"
+                        type="checkbox"
+                        className="h-4 w-4 rounded border-gray-300 text-themeBlue"
+                    />
+                    <label htmlFor="comments" className="font-medium text-gray-700 ml-3">
+                        Add Expenses
+                    </label>
                 </div>
             </div>
 

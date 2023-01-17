@@ -5,10 +5,10 @@ import {
     Bars3BottomLeftIcon,
     XMarkIcon,
 } from '@heroicons/react/24/outline'
-import Records from './Records'
+// import Records from './Records'
 // import Dashboard from './Dashboard'
 // import AddRecord from './AddRecord'
-// import Categories from './Categories'
+import Categories from './Categories'
 // import Records from './Records'
 
 const userNavigation = [
@@ -308,7 +308,7 @@ export default function Example() {
                         <div className="py-6">
 
                             <div className="mx-auto max-w-7xl px-4 sm:px-6 md:px-8">
-                                <Records />
+                                <Categories />
                                 {/* <div className="py-4">
                                     <div className="h-96 rounded-lg border-4 border-dashed border-gray-200" />
                                 </div> */}
