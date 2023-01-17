@@ -25,7 +25,6 @@ export default function Records() {
                             </div>
                         </div>
                     </div>
-
                     <button
                         type="button"
                         className="relative -ml-px inline-flex items-center space-x-2 rounded-md border border-themeBlue bg-themeBlue  px-4 py-2 text-sm font-medium text-white hover:scale-110 focus:border-themeBlue focus:outline-none focus:ring-1 focus:ring-themeBlue "
